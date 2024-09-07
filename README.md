@@ -1,2 +1,4 @@
 # Diploma-College-Projects
-This is my first Git Repository. 
+This is my first Git Repository.
+<br>
+Author - Rezil Christian
