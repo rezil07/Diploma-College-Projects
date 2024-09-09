@@ -214,20 +214,14 @@ if(PS1==1 && PS2==2){
         if(hp1<0 || hp2<0){
             if(hp1>hp2){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - NARUTO\nLOSS : TEAM 2 - JIRAIYA\n\nNARUTO = LOW HP      VS      JIRAIYA = DIED\n\n");
-            printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
                 goto finish;}
             else{printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - JIRAIYA\nLOSS : TEAM 1 - NARUTO\n\nNARUTO = DIED      VS      JIRAIYA = LOW HP\n\n");
-            printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         }
         if(hp1 == 0 && hp2 == 0){//Draw 
@@ -235,21 +229,15 @@ if(PS1==1 && PS2==2){
             goto finish;} 
         if(hp1==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - JIRAIYA\nLOSS : TEAM 2 - NARUTO\n\nNARUTO HP = %d      VS      JIRAIYA HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         if(hp2==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - NARUTO\nLOSS : TEAM 1 - JIRAIYA\n\nNARUTO HP = %d      VS      JIRAIYA HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         printf("\n\n-->NARUTO HP = %d      VS      JIRAIYA HP = %d",hp1,hp2);
     }
@@ -288,20 +276,14 @@ if(PS1==1 && PS2==3){
         if(hp1<0 || hp2<0){
             if(hp1>hp2){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - NARUTO\nLOSS : TEAM 2 - ITACHI\n\nNARUTO = LOW HP      VS      ITACHI = DIED\n\n");
-            printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
                 goto finish;}
             else{printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - ITACHI\nLOSS : TEAM 1 - NARUTO\n\nNARUTO = DIED      VS      ITACHI = LOW HP\n\n");
-            printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         }
         if(hp1 == 0 && hp2 == 0){//Draw 
@@ -309,21 +291,15 @@ if(PS1==1 && PS2==3){
             goto finish;} 
         if(hp1==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - ITACHI\nLOSS : TEAM 2 - NARUTO\n\nNARUTO HP = %d      VS      ITACHI HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         if(hp2==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - NARUTO\nLOSS : TEAM 1 - ITACHI\n\nNARUTO HP = %d      VS      ITACHI HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         printf("\n\n-->NARUTO HP = %d      VS      ITACHI HP = %d",hp1,hp2);
     }
@@ -364,20 +340,14 @@ if(PS1==2 && PS2==1){
         if(hp1<0 || hp2<0){
             if(hp1>hp2){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - KAKASHI\nLOSS : TEAM 2 - SASUKE\n\nKAKASHI = LOW HP      VS      SASUKE = DIED\n\n");
-            printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
                 goto finish;}
             else{printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - SASUKE\nLOSS : TEAM 1 - KAKASHI\n\nKAKASHI = DIED      VS      SASUKE = LOW HP\n\n");
-            printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         }
         if(hp1 == 0 && hp2 == 0){//Draw 
@@ -385,21 +355,15 @@ if(PS1==2 && PS2==1){
             goto finish;} 
         if(hp1==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - SASUKE\nLOSS : TEAM 2 - KAKASHI\n\nKAKASHI HP = %d      VS      SASUKE HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         if(hp2==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - KAKASHI\nLOSS : TEAM 1 - SASUKE\n\nKAKASHI HP = %d       VS      SASUKE HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         printf("\n\nKAKASHI HP = %d      VS      SASUKE HP = %d",hp1,hp2);
     }
@@ -439,20 +403,14 @@ if(PS1==2 && PS2==2){
         if(hp1<0 || hp2<0){
             if(hp1>hp2){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - KAKASHI\nLOSS : TEAM 2 - JIRAIYA\n\nKAKASHI = LOW HP      VS      JIRAIYA = DIED\n\n");
-            printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         else{printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - JIRAIYA\nLOSS : TEAM 1 - KAKASHI\n\nKAKASHI = DIED      VS      JIRAIYA = LOW HP\n\n");
-            printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         }
         if(hp1 == 0 && hp2 == 0){//Draw 
@@ -460,21 +418,15 @@ if(PS1==2 && PS2==2){
             goto finish;} 
         if(hp1==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - JIRAIYA\nLOSS : TEAM 2 - KAKASHI\n\nKAKASHI HP = %d      VS      JIRAIYA HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         if(hp2==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - KAKASHI\nLOSS : TEAM 1 - JIRAIYA\n\nKAKASHI HP = %d      VS      JIRAIYA HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         printf("\n\n-->KAKASHI HP = %d      VS      JIRAIYA HP = %d",hp1,hp2);
     }
@@ -514,20 +466,14 @@ if(PS1==2 && PS2==3){
         if(hp1<0 || hp2<0){
             if(hp1>hp2){
                 printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - KAKASHI\nLOSS : TEAM 2 - ITACHI\n\nKAKASHI = LOW HP      VS      ITACHI = DIED\n\n");
-                printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-                printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-                printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-                printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-                printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-                printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
                 goto finish;}
             else{printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - ITACHI\nLOSS : TEAM 1 - KAKASHI\n\nKAKASHI = DIED      VS      ITACHI = LOW HP\n\n",hp2);
-                printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-                printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-                printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-                printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-                printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-                printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
                 goto finish;}
         }
         if(hp1 == 0 && hp2 == 0){//Draw 
@@ -535,21 +481,15 @@ if(PS1==2 && PS2==3){
             goto finish;} 
         if(hp1==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - ITACHI\nLOSS : TEAM 2 - KAKASHI\n\nKAKASHI HP = %d      VS      ITACHI HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         if(hp2==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - KAKASHI\nLOSS : TEAM 1 - ITACHI\n\nKAKASHI HP = %d      VS      ITACHI HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         printf("\n\n-->KAKASHI HP = %d      VS      ITACHI HP = %d",hp1,hp2);
     }
@@ -591,20 +531,14 @@ if(PS1==3 && PS2==1){
         if(hp1<0 || hp2<0){
             if(hp1>hp2){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - MADARA\nLOSS : TEAM 2 - SASUKE\n\nMADARA = LOW HP      VS      SASUKE = DIED\n\n");
-            printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
                 goto finish;}
             else{printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - SASUKE\nLOSS : TEAM 1 - MADARA\n\nMADARA HP = DIED      VS      SASUKE = LOW HP\n\n");
-                printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-                printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-                printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-                printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-                printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-                printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
                 goto finish;}
         }
         if(hp1 == 0 && hp2 == 0){//Draw 
@@ -612,21 +546,15 @@ if(PS1==3 && PS2==1){
             goto finish;} 
         if(hp1==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - SASUKE\nLOSS : TEAM 2 - MADARA\n\nMADARA HP = %d      VS      SASUKE HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         if(hp2==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - MADARA\nLOSS : TEAM 1 - SASUKE\n\nMADARA HP = %d       VS      SASUKE HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         printf("\n\nMADARA HP = %d      VS      SASUKE HP = %d",hp1,hp2);
     }
@@ -669,20 +597,14 @@ if(PS1==3 && PS2==2){
         if(hp1<0 || hp2<0){
             if(hp1>hp2){
                 printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - MADARA\nLOSS : TEAM 2 - JIRAIYA\n\nMADARA = LOW HP      VS      JIRAIYA = DIED\n\n");
-                printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-                printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-                printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-                printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-                printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-                printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
                 goto finish;}
             else{printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - JIRAIYA\nLOSS : TEAM 1 - MADARA\n\nMADARA HP = DIED      VS      SASUKE = LOW HP\n\n");
-            printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         }
         if(hp1 == 0 && hp2 == 0){//Draw 
@@ -690,21 +612,15 @@ if(PS1==3 && PS2==2){
             goto finish;} 
         if(hp1==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - JIRAIYA\nLOSS : TEAM 2 - MADARA\n\nMADARA HP = %d      VS      JIRAIYA HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         if(hp2==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - MADARA\nLOSS : TEAM 1 - JIRAIYA\n\nMADARA HP = %d      VS      JIRAIYA HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         printf("\n\n-->MADARA HP = %d      VS      JIRAIYA HP = %d",hp1,hp2);
     }
@@ -747,20 +663,14 @@ if(PS1==3 && PS2==3){
         if(hp1<0 || hp2<0){
             if(hp1>hp2){
                 printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - MADARA\nLOSS : TEAM 2 - ITACHI\n\nMADARA = LOW HP      VS      ITACHI = DIED\n\n");
-                printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-                printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-                printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-                printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-                printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-                printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
                 goto finish;}
             else{printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - ITACHI\nLOSS : TEAM 1 - MADARA\n\nMADARA HP = DIED      VS      ITACHI = LOW HP\n\n");
-                printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-                printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-                printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-                printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-                printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-                printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         }
         if(hp1 == 0 && hp2 == 0){//Draw 
@@ -768,21 +678,15 @@ if(PS1==3 && PS2==3){
             goto finish;} 
         if(hp1==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 2 - ITACHI\nLOSS : TEAM 2 - MADARA\n\nMADARA HP = %d      VS      ITACHI HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        __________      __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      |________  |    |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |       ________| |     |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |      |  ________|      |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |      | |________        |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |__________|        |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 2 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         if(hp2==0){
             printf("\n\n\nFINAL DECISION : \n\nWIN : TEAM 1 - MADARA\nLOSS : TEAM 1 - ITACHI\n\nMADARA HP = %d      VS      ITACHI HP =%d\n\n",hp1,hp2);
-            printf(" ________    ________       _____       _____     _____        ___             __              __    ________    ____     _  \n");
-            printf("|___  ___|  |  ______|     |     |     |  _  |   |  _  |      /_  |           |  |            |  |  |___  ___|  |  _ |   | | \n");
-            printf("   |  |     | |______     |_______|    | | | |   | | | |        | |            |  |    __    |  |      |  |     | | | |  | | \n");
-            printf("   |  |     |  ______|   |_________|   | |  | |_| |  | |        | |             |  |__|  |__|  |       |  |     | |  | | | | \n");
-            printf("   |  |     | |______   |           |  | |   |___|   | |       _| |_             |    |  |    |      __|  |__   | |   |_|| | \n");
-            printf("   |__|     |________| |             | |_|           |_|      |_____|             |__|    |__|      |________|  |_|     |__| \n");
+            printf("\n\t\t\t\t\t\t\t      |                |");
+            printf("\n\t\t\t\t\t\t\t      |   TEAM 1 WIN   |");
+            printf("\n\t\t\t\t\t\t\t      |                |");
             goto finish;}
         printf("\n\n-->MADARA HP = %d      VS      ITACHI HP = %d",hp1,hp2);
     }
