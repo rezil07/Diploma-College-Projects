@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto Anime Series</title>
+</head>
+
+<body style="background-color: #f4f4f4;">
+    <header style="background-color: #ff8c00; color: white; text-align: center">
+        <h1>Naruto Anime Series</h1>
+    </header>
+
+    <main style="background-color: white; ">
+        <img src="https://i.redd.it/5xa9zk3x1nic1.png" height="800" width="1495" alt="Naruto and friends">
+
+        <section>
+            <h2>About Naruto</h2>
+            <p>Naruto is a Japanese manga series written and illustrated by Masashi Kishimoto. It tells the story of
+                Naruto Uzumaki, a young ninja who seeks recognition from his peers and dreams of becoming the Hokage,
+                the leader of his village.</p>
+        </section>
+
+        <section>
+            <h2>Main Characters</h2>
+            <ul>
+                <li>Naruto Uzumaki</li>
+                <li>Sasuke Uchiha</li>
+                <li>Sakura Haruno</li>
+                <li>Kakashi Hatake</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Anime Series</h2>
+            <ol>
+                <li>Naruto (2002-2007)</li>
+                <li>Naruto: Shippuden (2007-2017)</li>
+                <li>Boruto: Naruto Next Generations (2017-present)</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Movies</h2>
+            <ol>
+                <li>Naruto (Original Series) Movies</li>
+                <ul>
+                    <li> Naruto the Movie: Ninja Clash in the Land of Snow (2004)</li>
+                    <li>Naruto the Movie: Legend of the Stone of Gelel (2005)</li>
+                    <li>Naruto the Movie: Guardians of the Crescent Moon Kingdom (2006)</li>
+                </ul>
+
+                <li>Naruto Shippuden Movies:</li>
+                <ul>
+                    <li>Naruto Shippuden the Movie (2007)</li>
+                    <li>Naruto Shippuden the Movie: Bonds (2008)</li>
+                    <li>Naruto Shippuden the Movie: The Will of Fire (2009)</li>
+                    <li>Naruto Shippuden the Movie: The Lost Tower (2010)</li>
+                    <li>Naruto Shippuden the Movie: Blood Prison (2011)</li>
+                    <li>Road to Ninja: Naruto the Movie (2012)</li>
+                    <li>The Last: Naruto the Movie (2014)</li>
+                </ul>
+
+                <li>Boruto Movie(Naruto Next Generations):</li>
+                <ul>
+                    <li>Boruto: Naruto the Movie (2015)</li>
+                </ul>
+            </ol>
+
+        </section>
+
+        <section>
+            <h2>Naruto Trailer</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-G9BqkgZXRA?si=pzScw-DKxMxBJg8Q" title="Naruto Trailer"></iframe>
+        </iframe>
+        </section>
+
+        <section>
+            <h2>Naruto Theme Form</h2>
+            <form style="background-color: rgb(254, 254, 254);">
+
+        <div>
+        <label for="fname">Name :</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter First Name" required>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="lname">Clan Name :</label>
+            <input type="text" id="lname" name="lname" placeholder="Enter Last Name">
+            </div>
+    
+        <br>
+
+        <div>
+            <label for="date">Date Of Birth:</label>
+            <input type="date" id="date" name="date"  required>
+            </div>
+    
+        <br>
+
+        <div>
+            <label for="no">Justus You Can Do :</label>
+            <input type="number" id="no" name="no"  required value="1" min="1" max="100">
+            </div>
+    
+        <br>
+
+        <div>
+
+            <lable for="title" >Select Favourite Character :</lable>
+
+            <label for="101">
+            <input type="radio" id="101" name="select" value="naruto" required>Naruto
+            </label>
+
+            <label for="102">
+            <input type="radio" id="102" name="select" value="sasuke" required>Sasuke
+            </label>
+
+            <label for="103">
+            <input type="radio" id="103" name="select" value="itachi" required>Itachi
+            </label>
+
+            <label for="103">
+            <input type="radio" id="103" name="select" value="kakashi" required>Kakashi
+            </label>
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <lable for="payment">Village :</lable>
+
+            <select id="payment" name="payment" required>
+
+                <option value="leaf">LEAF VILLAGE</option>
+                <option value="sand">SAND VILLAGE</option>
+                <option value="fire">FIRE VILLAGE</option>
+                <option value="mist">MIST VILLAGE</option>
+                <option value="stone">STONE VILLAGE</option>
+                <option value="cloud">CLOUD VILLAGE</option>
+
+            </select>
+
+        </div>
+
+        <br>
+        Feedback :
+        <br>
+            <textarea name="feedback" id="106" placeholder="Please give your valuable feedback for this series" required rows="7" ></textarea>
+
+        <br>
+        <br>
+
+
+        <div>
+            <input type="reset">
+        </div>
+        
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+        </section>
+
+        <section>
+            <h2>Famous Quotes</h2>
+            <blockquote>
+                "I'm not gonna run away, I never go back on my word! That's my nindo: my ninja way!" - Naruto Uzumaki
+            </blockquote>
+        </section>
+    </main>
+
+    <footer style="text-align: center; color: #666;">
+        <p>&copy; 2023 Naruto Fan Page. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
